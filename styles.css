@@ -1,0 +1,39 @@
+/* Gradiente de fundo para a página */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #ff0066, #6600ff);
+}
+
+/* Container central */
+.container {
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+/* Estilo base dos botões */
+.btn {
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  color: white;
+  padding: 15px 30px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.5s ease, transform 0.3s ease;
+}
+
+/* Hover com mudança de gradiente e ângulo */
+.btn:hover {
+  background: linear-gradient(135deg, #2193b0, #6dd5ed);
+  transform: scale(1.05);
+}
